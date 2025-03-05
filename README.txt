@@ -1,21 +1,26 @@
-Requirements (Only for Install):- 
-1- Python 3.13 (recommended from Microsoft Store) (Restart after installation)
+Requirements
+------------
+Python 3.13+ (Install from Microsoft Store)
 
-Install from CMD.
+Usage
+-----
+1. Run "HumanClicker_V2.py"
+2. Select target window from the list
+3. Enter number of loops (0 = infinite)
 
-2- "python -m ensurepip --default-pip"
-3- "pip install pyautogui keyboard pygetwindow pywin32 mouse"
-4- Change clicks.txt directory in line 15
+Controls
+--------
+ESC - Stop the script
 
-__________
+Notes
+-----
+- Script requires administrator privileges to run
+- The script path should not contain any empty spaces
+- Required modules (auto-installed):
+  * pyautogui - Mouse/keyboard control
+  * keyboard - Hotkey detection
+  * pygetwindow - Window management
+  * pywin32 - Windows API access
 
-Steps:
-
-1- Open file "HumanClicker_V2"
-
-2- Select window by entring the number then hit enter.
-
-3- Enter how many times to loop (0 means infinite)
-
-
-Press "Esc" escape button to stop the simulation.
+  Manual installation if needed:
+  pip install pyautogui keyboard pygetwindow pywin32
