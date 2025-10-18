@@ -2,6 +2,7 @@
 5, 73, Left Click
 3, 122, Left Click
 281, 298, Left Click
+64, 78, Left Click
 
 52, 0, Left Click
 -53, 0, Left Click

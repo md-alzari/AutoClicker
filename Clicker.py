@@ -19,9 +19,9 @@ AutoExit = True
 
 # Advanced
 UseDelayes = True
-MoveDurationRange = (0.005, 0.03) 
-ClickDurationRange = (0.05, 0.3)
-LoopDurationRange = (0.05, 0.3)
+MoveDurationRange = (0.008, 0.08) #Old:(0.01, 0.1) | New:(0.005, 0.03)
+ClickDurationRange = (0.15, 0.2) #Old:(0.3, 0.1) | New:(0.05, 0.3)
+LoopDurationRange = (0.1, 0.2) #Old:(0.2, 1) | New:(0.05, 0.3)
 
 # Human Curve
 UseCurve = False
@@ -32,7 +32,7 @@ MaxPoints = 7
 RequiredModules = ['pyautogui', 'keyboard', 'pygetwindow', 'pywin32']
 JitterAmount = 0.7  
 MicroMovementChance = 0.03  
-MinCPU_Delay = 0.005
+MinCPU_Delay = 0.01 #Old:0.02 | New:0.005
 CPU_Time = 0.001
 
 AppWindow = None
